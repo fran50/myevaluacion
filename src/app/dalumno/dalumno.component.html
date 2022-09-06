@@ -1,0 +1,23 @@
+<a class="boton" routerLink=""><i class="fas fa-arrow-left"></i></a>
+<div class="caja">
+    <div >
+      <div class="cajaTitulo">
+        <img class="foto" [src]='alumno.foto' alt="">
+        <div class="cajaNombre">
+        <div class="nombre"> {{alumno.nombre}}</div>
+        <div class="curso"> {{alumno.curso}}</div>
+        </div>
+      </div>
+      <div class="informe">
+        <div class="curso tituloI">Actitud</div>
+        <div class="curso textoJ"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, rem reprehenderit soluta id quidem pariatur debitis quibusdam velit et ab. Eligendi nemo, hic doloremque sit libero provident ad id iusto?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque omnis vero est, aut excepturi consequuntur repellendus inventore officia quidem quisquam amet recusandae rerum, provident numquam reprehenderit nihil earum ad fugit!</div>
+      </div>
+    <div *ngFor="let evalua of alumno.evaluaciones">
+      <div class="evaluacion" >{{evalua.evaluacion }}</div>
+        <div class="contenedor"> 
+  
+          <app-circulo *ngFor="let notas of evalua.notas" [valor]="notas"></app-circulo>
+        </div> 
+      </div>
+    </div>
+  </div>

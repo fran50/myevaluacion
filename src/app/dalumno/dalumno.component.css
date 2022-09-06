@@ -1,0 +1,73 @@
+.nombre{
+    font-size: 22px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif
+}
+.curso{
+    font-size: 16px;
+      color: rgba(255, 255, 255, 0.65);
+    font-family: Arial, Helvetica, sans-serif
+}
+.evaluacion{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+.caja{
+  width: 90%;
+  margin:auto;
+  margin-top: 2em;
+}
+.contenedor{
+  width: 100%;
+  display:grid;
+ /* border:1px solid blue;*/
+  grid-gap: 1em;
+  grid-template-columns: repeat(3,250px);
+ 
+  justify-content: space-between;
+  
+  
+ }
+ .informe{
+  background-color:#454D5A;
+  border-radius: 8px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1.5em;
+  padding-top: 0.5em;
+
+ }
+ .tituloI{
+ font-size: 20px;
+ margin-bottom: 0.5em;
+ }
+ .textoJ{
+   text-align: justify;
+ }
+ .cajaTitulo{
+   display: flex;
+ }
+ .foto{
+   border-radius: 1em;
+   width: 150px;
+   height: 200px;
+ }
+ .cajaNombre{
+   margin-left: 1em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /*align-items: center;*/
+ }
+ .fa-arrow-left{
+    
+     color: #fff;
+ }
+ .boton{
+    text-decoration: none;
+    margin-left: 1em;
+ }

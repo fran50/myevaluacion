@@ -1,0 +1,16 @@
+<div class="card"> 
+            
+    <div class="box" >
+     <!--   <h2 class="text arriba">Html</h2> -->
+        <div class="percent">
+            <svg>
+                <circle cx="75" cy="75" r="70"></circle>
+                <circle cx="75" cy="75" r="70" class="circulodos" [ngStyle]="{'stroke-dashoffset':'calc(440 - (440 * (' + mivalor +')*10) / 100)'}" ></circle>
+            </svg>
+            <div class="number">
+                <h2>{{mivalor.toFixed(2)}}<span></span></h2>
+            </div>
+        </div>
+        <h2 class="text">{{valor.asignatura}} </h2> 
+    </div>
+</div>
