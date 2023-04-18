@@ -68,7 +68,7 @@
  }
  .foto{
    border-radius: 1em;
-   width: 65px;
+  /* width: 65px;*/
    height: 100px;
  }
  .cajaNombre{

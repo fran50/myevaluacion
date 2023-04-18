@@ -8,8 +8,8 @@ export class AlumnoService {
   alumnos: any[] = [
     {
       id: 1,
-      nombre: 'Bautista Horcajo, Carlos',
-      curso: '2º FPB Ofimatica',
+      nombre: 'Ortiz Ramos, Thalia',
+      curso: '1º FPB Electronica',
       foto: 'assets/fotos/1.jpg',
       evaluaciones: [
         {
@@ -41,8 +41,8 @@ export class AlumnoService {
     },
     {
       id: 2,
-      nombre: 'Castro Chalen, Jacobo',
-      curso: '2º FPB Ofimatica',
+      nombre: 'Ortiz Ramos, Sandra',
+      curso: '1º FPB Electronica',
       foto: 'assets/fotos/2.jpg',
       evaluaciones: [
 
